@@ -1,0 +1,5 @@
+site_name: Barinsta
+repo_url: https://github.com/austinhuang0131/instagrabber
+edit_uri: blob/master/docs/
+nav:
+    - Home: index.md
