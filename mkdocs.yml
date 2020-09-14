@@ -6,6 +6,7 @@ site_author: Austin Huang, https://austinhuang.me
 copyright: 'Documentation: Copyright &copy; 2020 <a href="https://austinhuang.me">Austin Huang</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.'
 nav:
     - Home: index.md
+    - Frequently-Asked Questions: faq.md
     - Legal stuff:
         - Terms & Conditions: tos.md
         - Privacy Policy: privacy.md

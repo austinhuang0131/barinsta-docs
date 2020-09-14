@@ -3,7 +3,6 @@
 ## Rules
 
 * Your usage of this app should constitute human use.
-* Do not use this app for social media marketing purposes.
 * Should you reuse content downloaded from this app, please make sure you are legally allowed to use them. I respect your right to control your data, so remember to respect others' rights, including copyrights.
 * You must abide by all enforceable provisions of applicable Instagram terms.
 * You must disclose any account bans caused by this app. [See below.](#disclosure-of-banned-accounts)
