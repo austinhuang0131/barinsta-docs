@@ -3,3 +3,6 @@
 
 !!! Warning
     more test
+
+!!! Error
+    stop test
