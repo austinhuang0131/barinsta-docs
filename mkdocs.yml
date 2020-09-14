@@ -3,6 +3,9 @@ repo_url: https://github.com/austinhuang0131/barinsta
 edit_uri: -docs/blob/master/docs/
 nav:
     - Home: index.md
+    - Legal stuff:
+        - Terms & Conditions: tos.md
+        - Privacy Policy: privacy.md
 theme: readthedocs
 
 extra_css:

@@ -1,8 +1,1 @@
-!!! Note
-    test
-
-!!! Warning
-    more test
-
-!!! Error
-    stop test
+In process of moving from GitBook.
