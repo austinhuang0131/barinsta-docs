@@ -4,7 +4,7 @@
 ## Download
 
 !!! Note
-    By downloading, you indicate your acceptance of [Terms](./tos) and [Privacy Policy](./privacy).
+    By downloading, you indicate your acceptance of [Terms](./tos) and [Privacy Policy](./privacy). [Does not support Android 4.4 or under.](./faq#device-compatibility)
 
 | ![F-Droid](https://img.shields.io/f-droid/v/me.austinhuang.instagrabber.svg) | ![GitHub](https://img.shields.io/github/release/austinhuang0131/barinsta.svg?logo=github) |
 | :---: | :---: |
