@@ -2,6 +2,9 @@
 
 ### Device Compatibility
 
+* **Android 4.4 or earlier:** Not supported due to [lack of TLS 1.2](https://github.com/square/okhttp#requirements), which can be a security vulnerability.
+* **Android 5.0 or later:** Supported.
+
 Generally, this app is tested on an Android 9 hardware and an Android 10 emulator. Although most design components use `androidx.appcompat` which should improve compatibility, certain Java methods may be supported differently among versions. [Compatibility issues](https://github.com/austinhuang0131/barinsta/issues?q=is%3Aissue+label%3Acompatibility) will be attempted to be fixed as they're being reported, but without guarantee.
 
 ### F-Droid
@@ -14,9 +17,9 @@ For publishing a release on F-Droid, it goes through three processes, all of whi
 
 ### I can't see anything (And I did not log in)!
 
-Check your internet connection, and disable VPN/proxies (as they are not allowed on Instagram).
+Check your internet connection.
 
-**For Iranian users:** It seems like Instagram does not allow viewing anonymously (sanction?), however I have received reports (unconfirmed) saying using Israeli VPNs will bypass the restriction.
+You're not supposesd to use VPN or proxies, as Instagram blocks *most* of them, but you can try to use them if vanilla methods don't work.
 
 ## Login-related
 
@@ -39,17 +42,7 @@ Try logging in again by adding the same account.
 
 Please note that logging in doesn't mean the authors know you have seen it. This is controlled by a separate setting, visible when logged in.
 
-If you still want to view them without login, there is a setting for that, and it needs to be enabled. You can select a provider that works for you...
-
-### I still can't view stories without login!
-
-...which is why I said "a provider that *works* for you".
-
-The feature to see public stories anonymously has been brought up many times. Fortunately, we support third-party story readers (at our discretion). Sadly, they are subject to strict limits.
-
-Since Instagram absolutely requires an account to view any stories, it is impossible to view stories anonymously using official methods. Third-party providers use a bot account to access them, which means they are subject to ratelimits designed for only 1 person. Obviously, these providers don't have only 1 user, so it is evident that the limit will be quickly consumed.
-
-Certain providers implement captcha in an effort to stop overuse. Others don't, so Barinsta gives you the option to use some of them (i.e. those that are convenient for me to implement scrapers). Still, even though you have the option, you should use them *responsibly* and not overload them. Remember: The limit is still there!
+If you still want to view them without login, there *was* a setting for that, but due to [Instagram's persecution on storiesig](https://nitter.net/jlobitu/status/1305929897169346560#m) and the compounding effect restricting almost every single captcha-less story viewers, it's probably not coming back.
 
 ## Feed
 
