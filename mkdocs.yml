@@ -7,9 +7,11 @@ copyright: 'Documentation: Copyright &copy; 2020 <a href="https://austinhuang.me
 nav:
     - Home: index.md
     - Frequently-Asked Questions: faq.md
+    - A note on Addiction: addictions.md
     - Legal stuff:
         - Terms & Conditions: tos.md
         - Privacy Policy: privacy.md
+    - Donations: donations.md
 theme: readthedocs
 
 extra_css:
