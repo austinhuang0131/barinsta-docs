@@ -1,7 +1,13 @@
 ## Barinsta
 
-!!! Warning
-    I'll fill out the documentation once we're ready for a v19.0 public release.
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/images/en-US/phoneScreenshots/1.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" alt="Profile" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/images/en-US/phoneScreenshots/2.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" alt="Post" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/images/en-US/phoneScreenshots/3.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" alt="Comments" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/images/en-US/phoneScreenshots/4.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" alt="Story" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/images/en-US/phoneScreenshots/5.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg" alt="Hashtag" width="15%"/></a>
+<a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/images/en-US/phoneScreenshots/6.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg" alt="Discover Topics" width="15%"/></a>
+
+The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
 
 ## Download
 
