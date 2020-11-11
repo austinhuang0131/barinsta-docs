@@ -11,7 +11,7 @@ nav:
     - Legal stuff:
         - Terms & Conditions: tos.md
         - Privacy Policy: privacy.md
-    - Donations: donations.md
+    - Donations: https://austinhuang.me/donate
 theme: readthedocs
 
 extra_css:
