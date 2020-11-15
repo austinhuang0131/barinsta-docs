@@ -6,12 +6,14 @@ site_author: Austin Huang, https://austinhuang.me
 copyright: 'Documentation: Copyright &copy; 2020 <a href="https://austinhuang.me">Austin Huang</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.'
 nav:
     - Home: index.md
+    - Before Installation: before-installation.md
     - Frequently-Asked Questions: faq.md
     - A note on Addiction: addictions.md
     - Legal stuff:
         - Terms & Conditions: tos.md
         - Privacy Policy: privacy.md
-    - Donations: https://austinhuang.me/donate
+    - Contribute to the project!: https://github.com/austinhuang0131/barinsta/blob/master/.github/CONTRIBUTING.md
+    - Donate to the dev!: https://austinhuang.me/donate
 theme: readthedocs
 
 extra_css:
