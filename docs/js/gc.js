@@ -1,7 +1,7 @@
 // https://github.com/xtensor-stack/xtensor/blob/master/docs/source/_static/goatcounter.js
 
 (function() {
-  window.counter = 'https://barinsta.goatcounter.com/count'
+  window.goatcounter = {endpoint: 'https://barinsta.goatcounter.com/count'};
 
   var script = document.createElement('script');
   script.async = 1;
