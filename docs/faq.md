@@ -50,10 +50,6 @@ If you still want to view them without login, there *was* a setting for that, bu
 
 That would require us to implement tracking (tell Instagram what posts you saw), which is a big no-no. Also, this measure prevents you from constantly refreshing the feed for new posts, which helps wellbeing. (On a side note, seriously, just don't follow thousands of accounts on Instagram. You're just gonna intentionally get yourself addicted.)
 
-### Hashtag posts
-
-Hashtag posts do not seem to be in the feed right now. It is being investigated.
-
 ### I don't wanna login! Can I have a feed for favourites?
 
 That would require us to fetch posts from RSS providers. [Bibliogram](https://sr.ht/~cadence/bibliogram/) and [RSS-Bridge](https://github.com/RSS-Bridge/rss-bridge) instances are available, but many of them are under stress as they use `/?__a=1` for posts, which:
