@@ -1,4 +1,4 @@
-**Summary:** I don't collect stuff unless you send me crash logs. Out of convenience, I also included how this app communicates with other third-party services, but you should still read their privacy policies.
+**Summary:** I don't collect stuff unless you send me crash dumps. Interaction with Instagram is minimized, but you still need to agree to their privacy policy.
 
 !!! Note
     1. The summary and headings are added for ease of reading and should not be considered as parts of this privacy policy.
@@ -13,14 +13,19 @@
 ## Scope
 
 * This Privacy Policy ("Policy" or "the Policy" thereafter) applies to version 19.0 and later.
-* The Policy does not apply to any forks of this app (should there be), but their implementation of this policy is strongly encouraged.
+* The Policy does not apply to any forks of this app (should there be), but their implementation of this Policy is strongly encouraged.
 * The Policy does not apply to any services around the app (Documentation, GitHub, Crowdin, Telegram...) either.
 
 ## First Party
 
 ### Crash dumps
 
-Crash dumps are stored locally on your device, until you choose to send it (Through the "Report" button on crash, or the "Send Debug Logs" button in Settings). These may contain personal information (Device model, app version, what action you're trying to do...), and it is your sole responsibility to redact them as necessary. If you choose to send them, these information will only be used to improve the app, and you consent to further communication about your report. If you email your crash report, your email address will be published along with your crash report, but you may withdraw consent.
+* Crash dumps are stored locally on your device, until you choose to send it (Through the "Report" button on crash).
+* These may contain personal information (Device model, app version, what action you're trying to do...), and it is your sole responsibility to redact them as necessary.
+* If you choose to send them, these information will only be used to improve the app, and you consent to further communication about your report.
+* If you email your crash report to barinsta@austinhuang.me (default address), your email address will be published along with your crash report, but you may withdraw consent by contacting im@austinhuang.me.
+
+### Preferences
 
 Preferences are stored locally. The cookie (if logged in) is shared with Instagram to authenticate, otherwise they are not used outside the app. You can explicitly choose to export it, however the file will be under your sole responsibility.
 
@@ -28,7 +33,13 @@ Preferences are stored locally. The cookie (if logged in) is shared with Instagr
 
 ### Interaction with Instagram
 
-Interaction with Instagram is minimized: The app will request content that you explicitly want to be displayed, for example: If you want to see posts, then they are requested from Instagram. The app will send data that you explicitly want to be sent, for example: If you like/comment on posts, Instagram is informed of your action. The app will not voluntarily make requests for you without your explicit consent. However, since we do send requests, your usage of this app still constitutes your acceptance of Instagram's [Data Policy](https://www.instagram.com/legal/privacy/).
+Interaction with Instagram is minimized:
+
+* The app will request content that you explicitly want to be displayed, for example: If you want to see posts, then they are requested from Instagram.
+* Your language preference (within the app) and your timezone is sent to Instagram (since they do affect content display). Other personal details, including and not limited to phone details, call logs, contacts, how-long-you've-read-a-post, battery level, etc, are not sent.
+* The app will send data that you explicitly want to be sent. For example: If you like/comment on posts, Instagram is informed of your action.
+* The app will not voluntarily make requests (such as mark-as-seen) for you without your explicit consent.
+* However, since we do send requests, your usage of this app still constitutes your acceptance of Instagram's [Data Policy](https://www.instagram.com/legal/privacy/).
 
 ### Optional third-party providers
 
