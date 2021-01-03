@@ -1,7 +1,15 @@
 // https://github.com/xtensor-stack/xtensor/blob/master/docs/source/_static/goatcounter.js
 
 (function() {
-  window.goatcounter = {endpoint: 'https://barinsta.goatcounter.com/count'};
+  window.goatcounter = {
+    endpoint: 'https://barinsta.goatcounter.com/count',
+    path: function(p) {
+      if (p === '/en/latest/' || p.startsWith('/en/latest/?w='))
+          return '/en/latest'
+
+      return p
+    }
+  };
 
   var script = document.createElement('script');
   script.async = 1;

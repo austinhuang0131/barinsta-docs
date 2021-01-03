@@ -9,36 +9,7 @@ The beautiful, open source, and privacy-friendly alternative Instagram client fo
 <a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg" alt="Hashtag" width="15%"/></a>
 <a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg" alt="Discover Topics" width="15%"/></a>
 
-If you don't upload posts or stories on Instagram, but you still have to use it to keep in touch with people and contents, you now have an alternative: Barinsta is a beautiful client that allows you to browse Instagram, while giving you more options to control your data.
-
-### Features
-
-* Login NOT NEEDED to browse timeline and face-tagged posts from public profiles, hashtags, and locations.
-* View & download posts.
-* View & copy comments, captions, & biographies.
-* Zoom in on pictures with ease.
-* Batch download posts from feeds (Hold & Select).
-* Mark profiles as favourite for quicker access.
-
-### Additional logged-in feature
-
-* View & download stories, highlights, and HD avatar.
-* Browse feed (posts and stories), discover (by topic), DM, activity/notifications, and private profiles that you have followed.
-* Most features you need to view and interact: Like, "save", write/like/reply to comments, follow/block/restrict, reply to stories, play with stickers, respond to DMs (text & picture), etc.
-* View stories anonymously (by default, configurable).
-* See your own liked & saved posts.
-* Copy DM messages & download attachments.
-* Switch between accounts.
-
-### Extra merits:
-
-* Prevents irrational decisions: Instagram likes are set-it-forget-it, allowing them to collect more data from you. Barinsta intentionally removes double-tap and requires you to click into posts to give it a like. Barinsta also allows you to easily access posts you've liked through your own profile.
-* Allows customization: Pick your themes and layouts!
-* Allows viewing at your own pace: No need to "hold" a story with your fingers!
-* Not a webapp: Absolutely NO browser involved, except for login.
-* Not a mod: Absolutely NO dependency of the actual Instagram app.
-* We don't store passwords!
-* Request what you want: The app only requests what it needs to show you the content. No communicating with useless endpoints, and only minimal data is sent to Instagram.
+If you don't upload posts or stories on Instagram, but you still have to use it to keep in touch with people and contents, you now have an alternative: Barinsta is a beautiful client that allows you to browse Instagram, while removing most of the annoyances (ads, suggestions, useless tabs) and giving you more options to control your data.
 
 ## Download
 
@@ -46,7 +17,7 @@ If you don't upload posts or stories on Instagram, but you still have to use it 
     By downloading, you indicate your acceptance of [Terms](./tos) and [Privacy Policy](./privacy). [Does not support Android 4.4 or under.](./faq#device-compatibility)
     
 !!! Warning
-    In general, **DO NOT USE VPN.** If you're not logged in, Instagram will simply block the IP. If you are logged in, you may lose your account.
+    In general, [**DO NOT USE VPN OR OTHER PROXIES.**](./faq#Using-VPN-or-proxies)
 
 | ![F-Droid](https://img.shields.io/f-droid/v/me.austinhuang.instagrabber.svg) | ![GitHub](https://img.shields.io/github/release/austinhuang0131/barinsta.svg?logo=github) |
 | :---: | :---: |
@@ -61,4 +32,4 @@ If you don't upload posts or stories on Instagram, but you still have to use it 
 
 See [here](https://github.com/austinhuang0131/barinsta/blob/master/.github/CONTRIBUTING.md) for information regarding contributing to this app.
 
-[![GoatCounter visits](https://barinsta.goatcounter.com/counter//en/latest.svg)](https://barinsta.goatcounter.com)
+[![GoatCounter visits](https://barinsta.goatcounter.com/counter//en/latest.svg)](https://barinsta.goatcounter.com) [![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=279270&theme=light)](https://www.producthunt.com/posts/barinsta)

@@ -43,6 +43,8 @@ Interaction with Instagram is minimized:
 
 ### Optional third-party providers
 
+This section is only valid before v19.0.4, inclusive.
+
 For anonymous users: Should you choose to use one of the third-party providers proposed to you in Settings, you accept their Privacy Policy. Interaction with them is minimized as if the app is interacting with Instagram itself.
 
 ## Conclusion

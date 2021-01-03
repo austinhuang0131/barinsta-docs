@@ -10,10 +10,7 @@
 ## No Liability Clause
 
 ```
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 ```
 
 Please take time to review Section 15, 16 and 17 of our license, which is the [GNU General Public License, version 3.0](https://www.gnu.org/licenses/gpl-3.0.html).
