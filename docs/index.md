@@ -9,7 +9,7 @@ The beautiful, open source, and privacy-friendly alternative Instagram client fo
 <a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg" alt="Hashtag" width="15%"/></a>
 <a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg" alt="Discover Topics" width="15%"/></a>
 
-If you don't upload posts or stories on Instagram, but you still have to use it to keep in touch with people and contents, you now have an alternative: Barinsta is a beautiful client that allows you to browse Instagram, while removing most of the annoyances (ads, suggestions, useless tabs) and giving you more options to control your data.
+If you don't upload posts or stories on Instagram, but you still have to use it to keep in touch with people and contents, you now have an alternative: Barinsta is a beautiful client that allows you to browse Instagram, while removing most of the annoyances (ads, suggestions, useless tabs) and giving you more control of your data.
 
 ## Download
 

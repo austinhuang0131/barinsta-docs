@@ -1,16 +1,16 @@
-* [Basics](#Basics)
-* [Using Barinsta anonymously](#Using-Barinsta-anonymously)
-* [Using Barinsta with an account](#Using-Barinsta-with-an-account)
+* [Basics](#basics)
+* [Using Barinsta anonymously](#using-barinsta-anonymously)
+* [Using Barinsta with an account](#using-barinsta-with-an-account)
 
 ## Basics
 
 !!! Note
     Unless specifically instructed by this documentation or the developers, clearing application data/cache will not resolve issues.
 
-* [Should I use this app?](#Should-I-use-this-app)
-* [Using VPN or proxies](#Using-VPN-or-proxies)
-* [F-Droid](#F-Droid)
-* [Device Compatibility](#Device-Compatibility)
+* [Should I use this app?](#should-I-use-this-app)
+* [Using VPN or proxies](#using-vpn-or-proxies)
+* [F-Droid](#f-droid)
+* [Device Compatibility](#device-compatibility)
 
 ### Should I use this app?
 
@@ -48,7 +48,7 @@ However, currently (but planned for the future), you cannot use this app to:
 
     **Do NOT attempt to log in on banned IPs.** Your account will be either locked until you provide a phone number, or banned with no recourse.
 
-Instagram believes blocking IPs will stop spambots, but we all know they're just hungry for tracking. Again, Barinsta can only do *so much* to protect your privacy, and if you don't want Zucc to look into your life, you need to cut every single Facebook product, which is incredibly difficult for many (especially for the author, who is in North America, and cutting them will risk losing contacts).
+Instagram believes that blocking IPs will stop spambots, but we all know they're just hungry for tracking. Remember that Barinsta can only do *so much* to protect your privacy (which already improves the condition for many Instagram users, but might not be to the satisfaction of privacy advocates), and if you want more, you do have to avoid every single Facebook-owned platform, which is incredibly difficult for many (especially for the author, who is in North America, and cutting them will risk losing contacts).
 
 Bibliogram, on the other hand, actually allows you to access Instagram contents (public profiles only) without connecting to Facebook. However, Instagram is working hard to render it unusable, so unfortunately, [it will probably stop working soon](https://lists.sr.ht/~cadence/bibliogram-announce/%3C20201218014302.855fa8a816be2f19da2f56e3%40disroot.org%3E).
 
@@ -86,6 +86,8 @@ Only these contents can be viewed without login:
 
 You might have hit the [ratelimit](https://git.sr.ht/~cadence/bibliogram-docs/tree/master/docs/Instagram%20rate%20limits.md). Wait a few hours before opening the app again.
 
+To know if you're banned or not, try visiting a public profile page on browser. If you're prompted to log in immediately without showing the account's posts, you currently have a temporary IP ban.
+
 ### Can we have an anonymous feed?
 
 It is still being debated upon. However, such feature, if implemented, will carry heavy restrictions.
@@ -105,14 +107,34 @@ Since [the death of storiesig](https://twitter.com/jlobitu/status/13059298971693
 
 ## Using Barinsta with an account
 
-* [Is my password safe?](#Is-my-password-safe)
-* ["Suspicious login"](#"Suspicious-login")
-* [I can't load anything after login!](#I-can't-load-anything-after-login)
-* [Can I have the feed rearranged on every refresh?](#Can-I-have-the-feed-rearranged-on-every-refresh)
+* [Is my password safe?](#is-my-password-safe)
+* [Is my account safe?](#is-my-account-safe)
+* ["Suspicious login"](#suspicious-login)
+* [I can't load anything after login!](#i-cant-load-anything-after-login)
+* [My discover feed is showing posts in different languages!](#My-discover-feed-is-showing-posts-in-different-languages)
+* [Can I have the feed rearranged on every refresh?](#can-i-have-the-feed-rearranged-on-every-refresh)
 
 ### Is my password safe?
 
 Yes. Only your login cookie is stored in the app, which you can either remove in the app's account selector (long press), or revoke in your Instagram login activity settings. See [here](https://github.com/austinhuang0131/barinsta/blob/master/app/src/main/java/awais/instagrabber/activities/Login.java) for how the app handles login. TLDR: We do not store your password.
+
+### Is my account safe?
+
+!!! Warning
+    At this point, you should just assume that **a real phone number is required to use Instagram**. If you're prompted to add a phone number due to suspicious activity, there are only two ways to go: Either give out your (or someone else's) real phone number, or drop the account.
+    
+    **Do not try to unlock your account using a burner/shared number.** Unlike other platforms, Instagram will *not* reject suspicious phone numbers right away, but they do know it and will ban your account if you attempt to bypass their checks. Unfortunately, as written above, if you want absolute privacy, you must avoid *any* Facebook-owned platforms.
+
+!!! Note
+    Remember that the rules require you to [disclose any bans](./faq#disclosure-of-banned-accounts) that may be due to the usage of Barinsta.
+
+We cannot guarantee that your account won't be banned, but the chances are very low. To this day, the developers are aware of **two** cases of banned accounts, one of which is [public](https://github.com/austinhuang0131/barinsta/issues/140).
+
+To boil it down, you need to prove that you're human to Zucc's satisfaction, otherwise you'll be banned. Specifically...
+
+* You need to follow [rules](./tos#rules).
+* Unlike YouTube which offers you a reCaptcha to prove you're human (which are bypassable as long as you pay, see Invidious), Instagram straight up asks for your phone number. You must provide a real one.
+* Try occasionally checking out Discover and liking some random posts.
 
 ### "Suspicious login"
 
@@ -130,6 +152,13 @@ Remember: We don't steal your login info. Well, we can't do that anyway, or F-Dr
 
 That would require us to implement tracking (tell Instagram what posts you saw), which is a big no-no. Also, this measure prevents you from constantly refreshing the feed for new posts, which helps wellbeing. (On a side note, seriously, just don't follow thousands of accounts on Instagram. You're just gonna intentionally get yourself addicted.)
 
+### My discover feed is showing posts in different languages!
+
+Using Barinsta can screw with the algorithm probably because we withhold or falsify tracking data.
+
 ### Comparing followers and followings
 
 Generally speaking, the feature works best if the sum of follower and following count (including duplicates) is under 1000. Going upward, the app will take significantly more time to compare them (since the user lists are paginated), but it should still work (The dev has tested ~5000).
+
+!!! Warning
+    If the sum is huge (like 10k+), not only will it slow down the app, it could also possibly lead to an account ban ("scrapeing"). Do so at your own risk.

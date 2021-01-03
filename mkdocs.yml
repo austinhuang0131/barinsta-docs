@@ -3,10 +3,9 @@ repo_url: https://github.com/austinhuang0131/barinsta
 edit_uri: ''
 site_description: The open source Instagram client on Android!
 site_author: Austin Huang, https://austinhuang.me
-copyright: 'Documentation: Copyright &copy; 2020 <a href="https://austinhuang.me">Austin Huang</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.'
+copyright: 'Documentation: Copyright &copy; 2020-2021 <a href="https://austinhuang.me">Austin Huang</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.'
 nav:
     - Home: index.md
-    - Before Installation: before-installation.md
     - Frequently-Asked Questions: faq.md
     - A note on Addiction: addictions.md
     - Legal stuff:
