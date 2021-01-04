@@ -126,13 +126,13 @@ Yes. Only your login cookie is stored in the app, which you can either remove in
     **Do not try to unlock your account using a burner/shared number.** Unlike other platforms, Instagram will *not* reject suspicious phone numbers right away, but they do know it and will ban your account if you attempt to bypass their checks. Unfortunately, as written above, if you want absolute privacy, you must avoid *any* Facebook-owned platforms.
 
 !!! Note
-    Remember that the rules require you to [disclose any bans](./faq#disclosure-of-banned-accounts) that may be due to the usage of Barinsta.
+    Remember that the rules require you to [disclose any bans](../tos#disclosure-of-banned-accounts) that may be due to the usage of Barinsta.
 
 We cannot guarantee that your account won't be banned, but the chances are very low. To this day, the developers are aware of **two** cases of banned accounts, one of which is [public](https://github.com/austinhuang0131/barinsta/issues/140).
 
 To boil it down, you need to prove that you're human to Zucc's satisfaction, otherwise you'll be banned. Specifically...
 
-* You need to follow [rules](./tos#rules).
+* You need to follow [rules](../tos#rules).
 * Unlike YouTube which offers you a reCaptcha to prove you're human (which are bypassable as long as you pay, see Invidious), Instagram straight up asks for your phone number. You must provide a real one.
 * Try occasionally checking out Discover and liking some random posts.
 
