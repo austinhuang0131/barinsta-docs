@@ -4,7 +4,7 @@
   window.goatcounter = {
     endpoint: 'https://barinsta.goatcounter.com/count',
     path: function(p) {
-      if (p === '/en/latest/' || p.startsWith('/en/latest/?w='))
+      if (p.startsWith('/en/latest/?'))
           return '/en/latest'
 
       return p
