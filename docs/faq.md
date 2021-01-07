@@ -14,7 +14,7 @@
 
 ### Should I use this app?
 
-!!! Note
+!!! Tip
     This app is not a mod of the existing Instagram app (therefore not dependent on "version numbers") and is intended to function as a standalone app. However, you can still use "Share to..." in the options menu of a post, then choose "Direct Download" with the Barinsta icon. This works for private posts as well, as long as you're logged into the same account on Barinsta. (But honestly, if you don't post, you should just ditch the official app.)
 
 Intended to replace the existing Instagram client (which is bloated, proprietary, and full of tracking) as well as other Downloader apps (sketchy, aren't they?), you will find this app useful if your Instagram use mainly constitutes the following:
@@ -41,7 +41,7 @@ However, currently (but planned for the future), you cannot use this app to:
 
 ### Using VPN or proxies
 
-!!! Warning
+!!! Danger
     Instagram is known to block IPs that are detected to be VPS/cloud providers or proxies.
 
     Therefore, **you're strongly advised AGAINST using Barinsta with VPNs or proxies.** (This does not include local VPN interfaces that does not connect to an external server.)
@@ -94,7 +94,7 @@ It is still being debated upon. However, such feature, if implemented, will carr
 
 ### Can we see stories?
 
-!!! Note
+!!! Tip
     Please note that logging in doesn't mean the authors know you have seen it. This is controlled by a separate setting, visible when logged in.
 
 Viewing stories absolutely requires an account, and online story viewers either...
@@ -128,7 +128,9 @@ Yes. Only your login cookie is stored in the app, which you can either remove in
 !!! Note
     Remember that the rules require you to [disclose any bans](../tos#disclosure-of-banned-accounts) that may be due to the usage of Barinsta.
 
-We cannot guarantee that your account won't be banned, but the chances are very low. To this day, the developers are aware of **two** cases of banned accounts, one of which is [public](https://github.com/austinhuang0131/barinsta/issues/140).
+    Also, informing yourself with [ban reports](https://github.com/austinhuang0131/barinsta/issues?q=is%3Aissue+label%3A%22BAN+REPORT%22) could help in preventing another ban.
+
+We cannot guarantee that your account won't be banned, but the chances are very low. See [here](https://github.com/austinhuang0131/barinsta/issues?q=is%3Aissue+label%3A%22BAN+REPORT%22) for a list of all public ban reports.
 
 To boil it down, you need to prove that you're human to Zucc's satisfaction, otherwise you'll be banned. Specifically...
 
