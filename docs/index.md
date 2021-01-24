@@ -14,10 +14,12 @@ If you don't upload posts or stories on Instagram, but you still have to use it 
 ## Download
 
 !!! Note
-    By downloading, you indicate your acceptance of [Terms](./tos) and [Privacy Policy](./privacy). [Does not support Android 4.4 or under.](./faq#device-compatibility)
+    By downloading, you indicate your acceptance of [Terms](./tos) and [Privacy Policy](./privacy).
+    
+    [Does not support Android 4.4 or under.](./faq#device-compatibility)
     
 !!! Warning
-    In general, [**DO NOT USE VPN OR OTHER PROXIES.**](./faq#Using-VPN-or-proxies)
+    In general, [**DO NOT USE VPN OR OTHER PROXIES.**](./faq#using-vpn-or-proxies)
 
 | ![F-Droid](https://img.shields.io/f-droid/v/me.austinhuang.instagrabber.svg) | ![GitHub](https://img.shields.io/github/release/austinhuang0131/barinsta.svg?logo=github) |
 | :---: | :---: |

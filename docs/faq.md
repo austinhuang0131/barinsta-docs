@@ -42,9 +42,9 @@ However, currently (but planned for the future), you cannot use this app to:
 ### Using VPN or proxies
 
 !!! Danger
-    Instagram is known to block IPs that are detected to be VPS/cloud providers or proxies.
+    Instagram is known to block IPs that are detected to be VPS/cloud providers or proxies. (There are certain exceptions - We're not Instagram and we don't know what they are)
 
-    Therefore, **you're strongly advised AGAINST using Barinsta with VPNs or proxies.** (This does not include local VPN interfaces that does not connect to an external server.)
+    Therefore, **you're advised against using Barinsta with VPNs or proxies.** (This does not include local VPN interfaces that does not connect to an external server.)
 
     **Do NOT attempt to log in on banned IPs.** Your account will be either locked until you provide a phone number, or banned with no recourse.
 
