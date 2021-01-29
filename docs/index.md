@@ -30,7 +30,7 @@ If you don't upload posts or stories on Instagram, but you still have to use it 
 * Use [GitHub issues](https://github.com/austinhuang0131/barinsta/issues) when possible.
 * Email: [Barinsta@AustinHuang.me](mailto:barinsta@austinhuang.me?body=Please%20note%20that%20your%20email%20address%20and%20the%20entire%20content%20will%20be%20published%20onto%20GitHub%20issues.%20If%20you%20do%20not%20wish%20to%20do%20that%2C%20use%20other%20contact%20methods%20instead.) (Synced to GitHub issues)
 * Reddit: [![r/Barinsta](https://img.shields.io/reddit/subreddit-subscribers/Barinsta?style=social)](https://reddit.com/r/barinsta)
-* Chat (Bridged to each other): [![Matrix](https://img.shields.io/badge/Matrix-%23Barinsta:matrix.org-000000?logo=matrix)](https://matrix.to/#/#barinsta:matrix.org) [![Telegram](https://img.shields.io/badge/Telegram-@Grabber__App-2CA5E0?logo=telegram)](https://t.me/grabber_app) [![Discord](https://img.shields.io/badge/Discord-YtEDzN2-7289da?logo=discord&logoColor=white)](https://discord.gg/YtEDzN2) [![Gitter](https://img.shields.io/badge/Gitter-InstaGrabber/General-ed1965?logo=gitter)](https://gitter.im/instagrabber/general)
+* [Chat](./chat) (Bridged to each other): [![Matrix](https://img.shields.io/badge/Matrix-%23Barinsta:matrix.org-000000?logo=matrix)](https://matrix.to/#/#barinsta:matrix.org) [![Telegram](https://img.shields.io/badge/Telegram-@Grabber__App-2CA5E0?logo=telegram)](https://t.me/grabber_app) [![Discord](https://img.shields.io/badge/Discord-YtEDzN2-7289da?logo=discord&logoColor=white)](https://discord.gg/YtEDzN2)
 
 See [here](https://github.com/austinhuang0131/barinsta/blob/master/.github/CONTRIBUTING.md) for information regarding contributing to this app.
 
