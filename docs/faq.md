@@ -5,7 +5,7 @@
 ## Basics
 
 !!! Note
-    Unless specifically instructed by this documentation or the developers, clearing application data/cache will not resolve issues.
+    Unless specifically instructed by this documentation or the developers, clearing application data/cache or reinstallations (of the same version) will not resolve issues.
 
 * [Should I use this app?](#should-I-use-this-app)
 * [Using VPN or proxies](#using-vpn-or-proxies)
@@ -54,6 +54,9 @@ Bibliogram, on the other hand, actually allows you to access Instagram contents 
 
 ### F-Droid
 
+!!! Warning
+    Any alpha versions (The ones suffixed with -a1, -a2...) will not be published on F-Droid. They will be available through GitHub releases only.
+
 For publishing a release on F-Droid, it goes through three processes, all of which can be monitored, but none of which are within my control.
 
 1. Pick up new versions: This happens everyday and can be monitored through [commit history of our metadata file on F-Droid's GitLab](https://gitlab.com/fdroid/fdroiddata/-/commits/master/metadata/me.austinhuang.instagrabber.yml).
@@ -64,19 +67,24 @@ People who use F-Droid clients will be able to update at Step 3, however it will
 
 ### Device Compatibility
 
+!!! Warning
+    You will not be able to log into the app if your device does not have a WebView client.
+    
+    Most phones (stock Android) use either Google Chrome or the official [Android System WebView](https://play.google.com/store/apps/details?id=com.google.android.webview) by default. If you somehow don't have one, install the official one, or use [Bromite's WebView](https://github.com/bromite/bromite/wiki/Installing-SystemWebView).
+
 If you use a different ROM/OS that is compatible with Android, please refer to respective documentations regarding which Android version it is compatible with.
 
-* **Android 4.4 or earlier:** Not supported due to [lack of TLS 1.2](https://github.com/square/okhttp#requirements), which can be a security vulnerability.
-* **Android 5.0 or later:** Supported.
+* **Android 4.4 or earlier (Before API 20):** Not supported.
+* **Android 5.0 or later (After API 21):** Supported.
 
-Generally, this app is tested on an Android 9 hardware and an Android 10 emulator. Although most design components use `androidx.appcompat` which should improve compatibility, certain Java methods may be supported differently among versions. [Compatibility issues](https://github.com/austinhuang0131/barinsta/issues?q=is%3Aissue+label%3Acompatibility) will be attempted to be fixed as they're being reported, but without guarantee.
+Generally, this app is tested on an Android 9 hardware and an Android 10 emulator. Although most design components use `androidx.appcompat` which should improve compatibility, certain Java methods may be supported differently among versions, so if that happens, please report them.
 
 ## Using Barinsta anonymously
 
 Only these contents can be viewed without login:
 
 * Public profile\*, hashtag, and location pages
-* Post details (media, caption, like count), comments, comment likes\*\*
+* Post details (media, caption, like count), comments\*\*, comment likes\*\*
 
 \* Including face-tagged posts, but excluding HD avatar and followers/followings.
 
@@ -111,8 +119,8 @@ Since [the death of storiesig](https://twitter.com/jlobitu/status/13059298971693
 * [Is my account safe?](#is-my-account-safe)
 * ["Suspicious login"](#suspicious-login)
 * [I can't load anything after login!](#i-cant-load-anything-after-login)
-* [My discover feed is showing posts in different languages!](#My-discover-feed-is-showing-posts-in-different-languages)
 * [Can I have the feed rearranged on every refresh?](#can-i-have-the-feed-rearranged-on-every-refresh)
+* [Comparing followers and followings](#comparing-followers-and-followings)
 
 ### Is my password safe?
 
@@ -132,17 +140,16 @@ Yes. Only your login cookie is stored in the app, which you can either remove in
 
 We cannot guarantee that your account won't be banned, but the chances are very low. See [here](https://github.com/austinhuang0131/barinsta/issues?q=is%3Aissue+label%3A%22BAN+REPORT%22) for a list of all public ban reports.
 
-To boil it down, you need to prove that you're human to Zucc's satisfaction, otherwise you'll be banned. Specifically...
+To boil it down, you need to prove that you're human to Zucc's satisfaction (but he's a robot himself, how does he know we're human???), otherwise you'll be banned. Specifically...
 
 * You need to follow [rules](../tos#rules).
 * Unlike YouTube which offers you a reCaptcha to prove you're human (which are bypassable as long as you pay, see Invidious), Instagram straight up asks for your phone number. You must provide a real one.
-* Try occasionally checking out Discover and liking some random posts.
+* If your account has relatively fewer data on it: Try producing "organic" engagements. Check out Discover occasionally and engage with some random posts.
+* Do not engage on posts *right after* them being posted. I am told that Instagram will lock your account for "automatically liking posts" or "phishing".
 
 ### "Suspicious login"
 
-Logging in from Barinsta can be considered "suspicious". If so, please check the time and the location of the login (These should be accurate) and confirm the login from browser.
-
-Remember: We don't steal your login info. Well, we can't do that anyway, or F-Droid would never forgive us.
+Logging in from Barinsta can be blocked as "suspicious". If so, please check the time and the location of the login (These should be accurate - but not device) and confirm the login from browser.
 
 ### I can't load anything after login!
 
@@ -152,11 +159,7 @@ Remember: We don't steal your login info. Well, we can't do that anyway, or F-Dr
 
 ### Can I have the feed rearranged on every refresh?
 
-That would require us to implement tracking (tell Instagram what posts you saw), which is a big no-no. Also, this measure prevents you from constantly refreshing the feed for new posts, which helps wellbeing. (On a side note, seriously, just don't follow thousands of accounts on Instagram. You're just gonna intentionally get yourself addicted.)
-
-### My discover feed is showing posts in different languages!
-
-Using Barinsta can screw with the algorithm probably because we withhold or falsify tracking data.
+That would require the app to tell Instagram what posts you saw (which I am against, but popular demand might push me into implementing it as an option). Also, this measure prevents you from constantly refreshing the feed for new posts, which helps wellbeing. (On a side note, seriously, just don't follow thousands of accounts on Instagram. You're just gonna intentionally get yourself addicted.)
 
 ### Comparing followers and followings
 
