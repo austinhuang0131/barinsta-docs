@@ -1,6 +1,6 @@
 # Official Community Chatrooms
 
-[![Matrix](https://img.shields.io/badge/Matrix-%23Barinsta:matrix.org-000000?logo=matrix)](https://matrix.to/#/#barinsta:matrix.org) [![Telegram](https://img.shields.io/badge/Telegram-@Grabber__App-2CA5E0?logo=telegram)](https://t.me/grabber_app) [![Discord](https://img.shields.io/badge/Discord-YtEDzN2-7289da?logo=discord&logoColor=white)](https://discord.gg/YtEDzN2)
+[![Matrix](https://img.shields.io/badge/Matrix-%23Barinsta:matrix.org-000000?logo=matrix)](https://matrix.to/#/#barinsta:matrix.org) [![Telegram](https://img.shields.io/badge/Telegram-@Barinsta__App-2CA5E0?logo=telegram)](https://t.me/barinsta_app) [![Discord](https://img.shields.io/badge/Discord-YtEDzN2-7289da?logo=discord&logoColor=white)](https://discord.gg/YtEDzN2)
 
 The above chatrooms are bridged together by [t2bot](https://t2bot.io/).
 
