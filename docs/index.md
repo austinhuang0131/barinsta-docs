@@ -1,9 +1,8 @@
+<meta name="saashub-verification" content="r00gazly3dyp" />
+
 ## Barinsta
 
 The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
-
-!!! Warning
-    The developers are aware that an unauthorized version of this app, which contains ads, is being distributed on Google Play. Please **uninstall it immediately** and download from below instead.
 
 <a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" alt="Profile" width="15%"/></a>
 <a href="https://github.com/austinhuang0131/instagrabber/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png"><img src="https://raw.githubusercontent.com/austinhuang0131/barinsta/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" alt="Post" width="15%"/></a>
