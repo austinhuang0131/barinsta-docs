@@ -1,6 +1,7 @@
 * [Basics](#basics)
 * [Using Barinsta anonymously](#using-barinsta-anonymously)
 * [Using Barinsta with an account](#using-barinsta-with-an-account)
+* [Ratelimits](#ratelimits)
 
 ## Basics
 
@@ -92,7 +93,7 @@ Only these contents can be viewed without login:
 
 ### The app was working but now it doesn't show anything!
 
-You might have hit the [ratelimit](https://git.sr.ht/~cadence/bibliogram-docs/tree/master/docs/Instagram%20rate%20limits.md). Wait a few hours before opening the app again.
+You might have hit the [ratelimit](#ratelimits). Wait a few hours before opening the app again.
 
 To know if you're banned or not, try visiting a public profile page on browser. If you're prompted to log in immediately without showing the account's posts, you currently have a temporary IP ban.
 
@@ -167,3 +168,38 @@ Generally speaking, the feature works best if the sum of follower and following 
 
 !!! Warning
     If the sum is huge (like 10k+), not only will it slow down the app, it could also possibly lead to an account ban ("scrapeing"). Do so at your own risk.
+
+## Ratelimits
+
+Instagram has ratelimits.
+
+Anonymous users have a per-IP ratelimit. It is set low to prevent botting and encourage sign-ups.
+
+Logged-in users have a per-account ratelimit which varies by "reputation", ie. those with more "meaningful" content are less likely to be hit with such restrictions.
+
+Please note that downloads don't contribute to ratelimit.
+
+### When can I access Instagram normally again?
+
+The toast says "an hour" but the time really varies by IP. In fact, restrictions can be permanent or even already in place before using Barinsta. Or you can choose to log in.
+
+Reinstalling the app will not solve the issue (although, if you are using an older version, then you should update anyway).
+
+### Can I just use browser then?
+
+No, since they use the same ratelimit. You'll be asked to log in.
+
+### Can I use Bibliogram then?
+
+Theoretically, yes. But public instances are already quite strained, [as they also get ratelimits](https://proxy.vulpes.one/gemini/cadence.moe/gemlog/2020-12-17-future-of-bibliogram.bliz).
+
+### What is the ratelimit?
+
+Nobody knows exactly what the limit is, though there are guesses.
+
+* Anonymous users: Bibliogram [says](https://git.sr.ht/~cadence/bibliogram-docs/tree/master/item/docs/Instagram%20rate%20limits.md) 200 requests per 11 min per GraphQL endpoint, but users reported experiencing much lower limits. Some also says residential IP has different limits? At this point, you should just assume that Instagram gives you "allowances" based on your behaviour...
+* Logged-in users: Refer to [this article](https://elfsight.com/blog/2016/12/instagram-restrictions-limits-likes-followers-comments/).
+
+---
+
+Feel free to [contribute to this FAQ](https://github.com/austinhuang0131/barinsta-docs/blob/master/docs/faq.md)!
