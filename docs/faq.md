@@ -171,7 +171,7 @@ Generally speaking, the feature works best if the sum of follower and following 
 
 ## Ratelimits
 
-Instagram has ratelimits.
+Instagram has strict ratelimits.
 
 Anonymous users have a per-IP ratelimit. It is set low to prevent botting and encourage sign-ups.
 
@@ -181,7 +181,7 @@ Please note that downloads don't contribute to ratelimit.
 
 ### When can I access Instagram normally again?
 
-The toast says "an hour" but the time really varies by IP. In fact, restrictions can be permanent or even already in place before using Barinsta. Or you can choose to log in.
+Varies by circumstance. In fact, restrictions can be permanent or even already in place before using Barinsta.
 
 Reinstalling the app will not solve the issue (although, if you are using an older version, then you should update anyway).
 
@@ -191,13 +191,13 @@ No, since they use the same ratelimit. You'll be asked to log in.
 
 ### Can I use Bibliogram then?
 
-Theoretically, yes. But public instances are already quite strained, [as they also get ratelimits](https://proxy.vulpes.one/gemini/cadence.moe/gemlog/2020-12-17-future-of-bibliogram.bliz).
+Theoretically, yes. However, public Bibliogram instances are already quite strained, [as they also get ratelimits](https://proxy.vulpes.one/gemini/cadence.moe/gemlog/2020-12-17-future-of-bibliogram.bliz).
 
 ### What is the ratelimit?
 
-Nobody knows exactly what the limit is, though there are guesses.
+Nobody knows exactly what the limit is, though there are guesses. At this point, you should just assume that Instagram gives you "allowances" based on your behaviour...
 
-* Anonymous users: Bibliogram [says](https://git.sr.ht/~cadence/bibliogram-docs/tree/master/item/docs/Instagram%20rate%20limits.md) 200 requests per 11 min per GraphQL endpoint, but users reported experiencing much lower limits. Some also says residential IP has different limits? At this point, you should just assume that Instagram gives you "allowances" based on your behaviour...
+* Anonymous users: Bibliogram [says](https://git.sr.ht/~cadence/bibliogram-docs/tree/master/item/docs/Instagram%20rate%20limits.md) 200 requests per 11 min per GraphQL endpoint, but users reported experiencing much lower limits. Some also say residential IP has different limits?
 * Logged-in users: Refer to [this article](https://elfsight.com/blog/2016/12/instagram-restrictions-limits-likes-followers-comments/).
 
 ---
